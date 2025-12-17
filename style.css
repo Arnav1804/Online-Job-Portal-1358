@@ -1,0 +1,122 @@
+/* Global page styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f7fb;
+  color: #222;
+  margin: 0;
+  padding: 0 10%;
+}
+
+h2,
+h3 {
+  color: #0b5394;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Simple top navigation links */
+center a,
+a {
+  color: #0b5394;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 4px;
+}
+
+center a:hover,
+a:hover {
+  text-decoration: underline;
+  color: #073763;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #d0d7e2;
+  margin: 20px 0;
+}
+
+/* Lists */
+ol {
+  padding-left: 25px;
+  list-style-type: decimal;
+}
+
+ul {
+  padding-left: 25px;
+  list-style-type: square;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0 20px;
+  font-size: 14px;
+}
+
+th,
+td {
+  border: 1px solid #c7cfdd;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #0b5394;
+  color: #fff;
+}
+
+tr:nth-child(even) td {
+  background-color: #eef2fb;
+}
+
+tr:hover td {
+  background-color: #dde5f7;
+}
+
+/* Forms */
+form {
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  padding: 6px 8px;
+  margin-top: 4px;
+  border-radius: 4px;
+  border: 1px solid #c7cfdd;
+  width: 260px;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+input[type="submit"] {
+  background-color: #0b5394;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+input[type="submit"]:hover {
+  background-color: #073763;
+}
+
+/* Centered footer text on home page */
+p[align="center"] {
+  text-align: center;
+}
+
+
